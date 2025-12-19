@@ -28,6 +28,8 @@ urlpatterns = [
     path('update_r/<id>/',update_rec),
     path('login_page/',login_page),
     path('reg_page/',reg),
+    path('log_out/',log_out),
+    path('api/upload/', api_upload_resume), ## For testing
 ]
 
 # if settings.DEBUG:
