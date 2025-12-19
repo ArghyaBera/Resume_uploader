@@ -1,5 +1,15 @@
+# Database
 db.sqlite3
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Environment
+.env
+
+# IDE
 .vscode/
+
+# User-uploaded media
 public/
